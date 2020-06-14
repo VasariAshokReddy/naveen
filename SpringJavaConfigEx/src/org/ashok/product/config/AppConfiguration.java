@@ -14,6 +14,10 @@ public class AppConfiguration {
 		pro.setProductId(1);
 		pro.setProductName("LG");
 		pro.setProductPrice(1123.0);
+		
+		pro.setProductId(2);
+		pro.setProductName("IPhone");
+		pro.setProductPrice(50000.0);
 		return pro;
 
 	}
