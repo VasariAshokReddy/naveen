@@ -15,7 +15,7 @@ public class SendMessageTest {
 		@SuppressWarnings("resource")
 		AnnotationConfigApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
 		JmsTemplate jt = (JmsTemplate)ac.getBean(JmsTemplate.class);
-		jt.send("my-test-spring", new MessageCreator() {
+		jt.send("AshokReddy", new MessageCreator() {
 			
 			public Message createMessage(Session ses) throws JMSException {
 				
